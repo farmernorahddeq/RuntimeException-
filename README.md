@@ -1,0 +1,2 @@
+# RuntimeException-
+PS C:\windows\system32> $uninstall = (Get-WmiObject Win32_Product | Where Name -eq "*PowerDirector*").uninstall() You cannot call a method on a null-valued expression. At line:1 char:1 + $uninstall = (Get-WmiObject Win32_Product | Where Name -eq "*PowerDirector*").un ... + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     + CategoryInfo          : InvalidOperation: (:) [], RuntimeException     + FullyQualifiedErrorId : InvokeMethodOnNull  PS C:\windows\system32>
